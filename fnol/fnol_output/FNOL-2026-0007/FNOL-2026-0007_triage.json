@@ -1,0 +1,208 @@
+{
+  "fnol_id": "FNOL-2026-0007",
+  "triage_generated_at": "2026-05-30T22:34:07.924891",
+  "adjuster_id": "ADJ-103",
+  "claim_snapshot": {
+    "member_id": "MEM-1003",
+    "policy_number": "POL-2024-003",
+    "vehicle_reg": "DL01EF2234",
+    "vehicle": "Hyundai Creta (2020)",
+    "incident_type": "THEFT_COMPLETE",
+    "incident_date": "27-May-2026 22:15",
+    "incident_location": "Basement Parking \u2014 Green Avenue Apartments, Sector 21, Dwarka, New Delhi \u2013 110075",
+    "fnol_received_at": "30-May-2026 22:34",
+    "policy_status": "ACTIVE",
+    "policy_inception": "01-May-2024",
+    "policy_expiry": "30-Apr-2025",
+    "coverage_type": "COMPREHENSIVE",
+    "idv_inr": 910000,
+    "ncb_percent": 0,
+    "addons": [
+      "ZERO_DEPRECIATION",
+      "ENGINE_PROTECTION",
+      "INVOICE_COVER"
+    ],
+    "hypothecated": true,
+    "financer_name": "ICICI Bank",
+    "insurer": "XYZ Insurance Co. Ltd.",
+    "policy_expiry_warning": "Policy POL-2024-003 expired 30-Apr-2025. Incident date 27-May-2026 22:15 is after expiry. Coverage requires renewal verification.",
+    "waiting_period_days": 30
+  },
+  "aging_risk": {
+    "fnol_age_hours": 0.01,
+    "aging_risk_level": "LOW",
+    "irdai_sla_due": "31-May-2026 22:34",
+    "sla_breached": false
+  },
+  "coverage_result": [
+    {
+      "section": "Section I \u2014 Own Damage (Burglary and Theft)",
+      "clause_ref": "Section I, Clause 1(d)",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 30-Apr-2025, and the incident occurred after this date, requiring renewal verification."
+    },
+    {
+      "section": "Add-on \u2014 Return to Invoice Cover",
+      "clause_ref": "Add-on Schedule, Clause I1",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 30-Apr-2025, and the incident occurred after this date, requiring renewal verification."
+    }
+  ],
+  "coverage_applicable": false,
+  "coverage_confidence_overall": "LOW",
+  "exclusion_result": [
+    {
+      "code": "NO_VALID_DL",
+      "name": "Driving without a valid and effective driving licence",
+      "clause_ref": "General Exceptions, Clause 1",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "This exclusion does not appear to apply as the incident involves theft, not driving without a valid license."
+    },
+    {
+      "code": "CONSEQUENTIAL_LOSS",
+      "name": "Consequential or indirect loss",
+      "clause_ref": "Section I, Exclusion Clause 5",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The claim may involve consequential losses due to the theft of the vehicle."
+    },
+    {
+      "code": "WAR_NUCLEAR",
+      "name": "War, invasion and nuclear risk",
+      "clause_ref": "General Exceptions, Clause 4",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "This exclusion does not appear to apply as the incident is related to theft, not war or nuclear events."
+    },
+    {
+      "code": "DRIVING_UNDER_INFLUENCE",
+      "name": "Driving under influence of alcohol, drugs or intoxicants",
+      "clause_ref": "General Exceptions, Clause 2",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "While the incident is theft-related, if the vehicle was driven under influence prior to theft, it could be relevant."
+    },
+    {
+      "code": "GEOGRAPHICAL_EXCLUSION",
+      "name": "Damage occurring outside the geographical coverage area (India)",
+      "clause_ref": "Policy Schedule \u2014 Geographical Area of Cover",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The incident occurred within India, so this exclusion is likely not applicable."
+    },
+    {
+      "code": "DELIBERATE_DAMAGE",
+      "name": "Loss or damage intentionally caused by the insured",
+      "clause_ref": "General Conditions \u2014 Fraudulent Claims",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "This exclusion does not appear to apply as there is no indication of intentional damage by the insured."
+    }
+  ],
+  "waiting_period": {
+    "policy_inception": "01-May-2024",
+    "waiting_period_days": 30,
+    "incident_date": "27-May-2026 22:15",
+    "days_since_inception": 756,
+    "waiting_period_active": false,
+    "incident_pre_inception": false,
+    "confidence": "HIGH",
+    "note": "Waiting period has elapsed. Policy has been in force for 756 days at the incident date."
+  },
+  "claims_history": {
+    "history_available": true,
+    "prior_claims_36m": [
+      {
+        "claim_id": "CLM-2025-0044",
+        "claim_date": "14-Aug-2025",
+        "incident_type": "ACCIDENT_OWN",
+        "status": "SETTLED",
+        "settled_amount_inr": 28500,
+        "ncb_impact": true
+      },
+      {
+        "claim_id": "CLM-2025-0067",
+        "claim_date": "22-Oct-2025",
+        "incident_type": "VANDALISM",
+        "status": "WITHDRAWN",
+        "settled_amount_inr": 0,
+        "ncb_impact": false
+      }
+    ],
+    "prior_claims_36m_count": 2,
+    "last_claim_date": "2025-10-22",
+    "days_since_last_claim": 217,
+    "back_to_back_flag": false,
+    "prior_claims_12m_count": 3,
+    "repeat_claimant_flag": true,
+    "ncb_discrepancy": null
+  },
+  "doc_checklist": [
+    {
+      "name": "First Information Report (FIR)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 7 days"
+    },
+    {
+      "name": "Registration Certificate (RC)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 48 hours"
+    },
+    {
+      "name": "Key Surrender Confirmation",
+      "mandatory": true,
+      "blocking": true,
+      "received": false,
+      "status": "MISSING",
+      "collection_target": "Within 48 hours"
+    },
+    {
+      "name": "Driving Licence (DL)",
+      "mandatory": true,
+      "blocking": false,
+      "received": false,
+      "status": "MISSING",
+      "collection_target": "At FNOL or within 48 hours"
+    }
+  ],
+  "escalation": {
+    "escalation_flag": true,
+    "triggered_conditions": [
+      {
+        "code": "HIGH_VALUE_CLAIM",
+        "label": "High-Value Claim",
+        "trigger": "IDV Rs.910,000 > Rs.5,00,000 AND incident type is THEFT_COMPLETE",
+        "adjuster_instruction": "Refer to senior claims manager before proceeding."
+      },
+      {
+        "code": "THEFT_WITH_ACTIVE_LOAN",
+        "label": "Theft with Active Loan (Hypothecation)",
+        "trigger": "incident_type = THEFT_COMPLETE AND hypothecated = TRUE",
+        "adjuster_instruction": "Financer notification required. NOC must be obtained. Refer to senior."
+      },
+      {
+        "code": "REPEAT_CLAIMANT",
+        "label": "Repeat Claimant",
+        "trigger": "prior_claims_12m = 3 (threshold: 3 or more)",
+        "adjuster_instruction": "Surface to senior for awareness. Does not block triage independently."
+      }
+    ],
+    "escalation_reason": "HIGH_VALUE_CLAIM|THEFT_WITH_ACTIVE_LOAN|REPEAT_CLAIMANT"
+  },
+  "triage_status": "ESCALATED",
+  "escalation_flag": true,
+  "escalation_reason": "HIGH_VALUE_CLAIM|THEFT_WITH_ACTIVE_LOAN|REPEAT_CLAIMANT",
+  "triage_json_path": null,
+  "triage_pdf_path": null,
+  "agent_status": "PENDING",
+  "error_message": null
+}

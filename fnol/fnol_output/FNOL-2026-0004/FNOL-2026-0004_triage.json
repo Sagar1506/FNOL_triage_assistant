@@ -1,0 +1,241 @@
+{
+  "fnol_id": "FNOL-2026-0004",
+  "triage_generated_at": "2026-05-30T21:05:37.514579",
+  "adjuster_id": "ADJ-101",
+  "claim_snapshot": {
+    "member_id": "MEM-1001",
+    "policy_number": "POL-2024-001",
+    "vehicle_reg": "MH02AB4419",
+    "vehicle": "Maruti Swift (2019)",
+    "incident_type": "ACCIDENT_WITH_THIRD_PARTY",
+    "incident_date": "12-May-2026 15:40",
+    "incident_location": "Andheri West Signal, S.V. Road, Mumbai \u2013 400058",
+    "fnol_received_at": "30-May-2026 21:05",
+    "policy_status": "ACTIVE",
+    "policy_inception": "15-Jan-2024",
+    "policy_expiry": "14-Jan-2025",
+    "coverage_type": "COMPREHENSIVE",
+    "idv_inr": 420000,
+    "ncb_percent": 35,
+    "addons": [
+      "ZERO_DEPRECIATION",
+      "ROADSIDE_ASSISTANCE"
+    ],
+    "hypothecated": true,
+    "financer_name": "HDFC Bank",
+    "insurer": "ABC General Insurance Ltd.",
+    "policy_expiry_warning": "Policy POL-2024-001 expired 14-Jan-2025. Incident date 12-May-2026 15:40 is after expiry. Coverage requires renewal verification.",
+    "waiting_period_days": 30
+  },
+  "aging_risk": {
+    "fnol_age_hours": 0.02,
+    "aging_risk_level": "LOW",
+    "irdai_sla_due": "31-May-2026 21:05",
+    "sla_breached": false
+  },
+  "coverage_result": [
+    {
+      "section": "Section I \u2014 Own Damage (Accidental External Means)",
+      "clause_ref": "Section I, Clause 1(a)",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 14-Jan-2025, and the incident occurred after this date."
+    },
+    {
+      "section": "Section II \u2014 Third-Party Property Damage Liability",
+      "clause_ref": "Section II, Clause 2",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 14-Jan-2025, and the incident occurred after this date."
+    },
+    {
+      "section": "Add-on \u2014 Zero Depreciation (Nil Depreciation)",
+      "clause_ref": "Add-on Schedule, Clause A1",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 14-Jan-2025, and the incident occurred after this date."
+    },
+    {
+      "section": "Add-on \u2014 Roadside Assistance (RSA)",
+      "clause_ref": "Add-on Schedule, Clause R1",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 14-Jan-2025, and the incident occurred after this date."
+    }
+  ],
+  "coverage_applicable": false,
+  "coverage_confidence_overall": "LOW",
+  "exclusion_result": [
+    {
+      "code": "NO_VALID_DL",
+      "name": "Driving without a valid and effective driving licence",
+      "clause_ref": "General Exceptions, Clause 1",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "The incident does not indicate any issues with the driver's license validity."
+    },
+    {
+      "code": "MECHANICAL_ELECTRICAL_BREAKDOWN",
+      "name": "Mechanical or electrical breakdown",
+      "clause_ref": "Section I, Exclusion Clause 4",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "The incident involved a collision, but mechanical failure could be a factor in the accident."
+    },
+    {
+      "code": "CONSEQUENTIAL_LOSS",
+      "name": "Consequential or indirect loss",
+      "clause_ref": "Section I, Exclusion Clause 5",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The insured may claim for direct damages, but any indirect losses could be excluded."
+    },
+    {
+      "code": "WAR_NUCLEAR",
+      "name": "War, invasion and nuclear risk",
+      "clause_ref": "General Exceptions, Clause 4",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "This exclusion does not apply to a road accident scenario."
+    },
+    {
+      "code": "DRIVING_UNDER_INFLUENCE",
+      "name": "Driving under influence of alcohol, drugs or intoxicants",
+      "clause_ref": "General Exceptions, Clause 2",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "There is no information indicating the driver was under the influence, but it needs verification."
+    },
+    {
+      "code": "WEAR_AND_TEAR",
+      "name": "Normal wear and tear and gradual deterioration",
+      "clause_ref": "Section I, Exclusion Clause 3",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "Damage from the accident is likely not due to wear and tear, but verification is needed."
+    },
+    {
+      "code": "GEOGRAPHICAL_EXCLUSION",
+      "name": "Damage occurring outside the geographical coverage area (India)",
+      "clause_ref": "Policy Schedule \u2014 Geographical Area of Cover",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "The incident occurred within India, so this exclusion does not apply."
+    },
+    {
+      "code": "UNLICENSED_DRIVER",
+      "name": "Vehicle driven by person not authorised by insured",
+      "clause_ref": "General Exceptions, Clause 1 \u2014 Driver Authorisation",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "The driver\u2019s authorization status needs to be confirmed."
+    },
+    {
+      "code": "USE_BEYOND_LIMITATIONS",
+      "name": "Use of vehicle beyond the limitations of use stated in the policy",
+      "clause_ref": "General Exceptions, Clause 3",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "The incident description does not indicate commercial use, but needs verification."
+    },
+    {
+      "code": "RACING_SPEED_TRIAL",
+      "name": "Use of vehicle for racing or speed testing",
+      "clause_ref": "General Exceptions, Clause 5",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "The incident does not involve racing or speed testing."
+    },
+    {
+      "code": "DELIBERATE_DAMAGE",
+      "name": "Loss or damage intentionally caused by the insured",
+      "clause_ref": "General Conditions \u2014 Fraudulent Claims",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "There is no indication of intentional damage by the insured."
+    }
+  ],
+  "waiting_period": {
+    "policy_inception": "15-Jan-2024",
+    "waiting_period_days": 30,
+    "incident_date": "12-May-2026 15:40",
+    "days_since_inception": 848,
+    "waiting_period_active": false,
+    "incident_pre_inception": false,
+    "confidence": "HIGH",
+    "note": "Waiting period has elapsed. Policy has been in force for 848 days at the incident date."
+  },
+  "claims_history": {
+    "history_available": true,
+    "prior_claims_36m": [
+      {
+        "claim_id": "CLM-2023-0042",
+        "claim_date": "12-Oct-2023",
+        "incident_type": "ACCIDENT_WITH_THIRD_PARTY",
+        "status": "SETTLED",
+        "settled_amount_inr": 18400,
+        "ncb_impact": true
+      }
+    ],
+    "prior_claims_36m_count": 1,
+    "last_claim_date": "2023-10-12",
+    "days_since_last_claim": 943,
+    "back_to_back_flag": false,
+    "prior_claims_12m_count": 0,
+    "repeat_claimant_flag": false,
+    "ncb_discrepancy": "NCB is 35% on policy but 1 recent claim(s) show ncb_impact = TRUE. Verify whether NCB was protected via NCB_PROTECT add-on."
+  },
+  "doc_checklist": [
+    {
+      "name": "First Information Report (FIR)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 7 days"
+    },
+    {
+      "name": "Registration Certificate (RC)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 48 hours"
+    },
+    {
+      "name": "Driving Licence (DL)",
+      "mandatory": true,
+      "blocking": true,
+      "received": false,
+      "status": "MISSING",
+      "collection_target": "At FNOL or within 48 hours"
+    },
+    {
+      "name": "Vehicle Damage Photo Log",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL"
+    }
+  ],
+  "escalation": {
+    "escalation_flag": true,
+    "triggered_conditions": [
+      {
+        "code": "LATE_FNOL_OVER_7_DAYS",
+        "label": "Late FNOL \u2014 Over 7 Days",
+        "trigger": "FNOL received 18 days after incident date",
+        "adjuster_instruction": "Request written explanation from claimant. Refer to senior."
+      }
+    ],
+    "escalation_reason": "LATE_FNOL_OVER_7_DAYS"
+  },
+  "triage_status": "ESCALATED",
+  "escalation_flag": true,
+  "escalation_reason": "LATE_FNOL_OVER_7_DAYS",
+  "triage_json_path": null,
+  "triage_pdf_path": null,
+  "agent_status": "PENDING",
+  "error_message": null
+}
