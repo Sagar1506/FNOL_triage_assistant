@@ -38,6 +38,9 @@ from fnol_register import save_intake_document
 from fnol_register import register_fnol
 from fnol_register import look_up_fnol
 
+os.makedirs("fnol/fnol_input", exist_ok=True)
+os.makedirs("fnol/fnol_output", exist_ok=True)
+
 load_dotenv()
 
 st.set_page_config(
