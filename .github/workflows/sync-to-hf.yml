@@ -22,21 +22,16 @@ jobs:
       - name: Install huggingface_hub
         run: pip install huggingface_hub
 
-      - name: Push to Hugging Face Space
+      - name: Debug secret values
         env:
-          HF_TOKEN: ${{ secrets.HF_TOKEN }}
           HF_USERNAME: ${{ secrets.HF_USERNAME }}
           HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
         run: |
           python -c "
-          from huggingface_hub import HfApi
           import os
-
-          api = HfApi(token=os.environ['HF_TOKEN'])
-          api.upload_folder(
-              folder_path='.',
-              repo_id=f\"{os.environ['HF_USERNAME']}/{os.environ['HF_SPACE_NAME']}\",
-              repo_type='space',
-              ignore_patterns=['.git*', '.github/*', '__pycache__/*', '*.pyc'],
-          )
+          username = os.environ['HF_USERNAME']
+          space_name = os.environ['HF_SPACE_NAME']
+          print('username repr:', repr(username))
+          print('space_name repr:', repr(space_name))
+          print('combined repr:', repr(f'{username}/{space_name}'))
           "
