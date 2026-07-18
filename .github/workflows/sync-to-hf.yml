@@ -14,8 +14,29 @@ jobs:
           fetch-depth: 0
           lfs: true
 
-      - name: Verify HF token works
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install huggingface_hub
+        run: pip install huggingface_hub
+
+      - name: Push to Hugging Face Space
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          HF_USERNAME: ${{ secrets.HF_USERNAME }}
+          HF_SPACE_NAME: ${{ secrets.HF_SPACE_NAME }}
         run: |
-          curl -s -H "Authorization: Bearer $HF_TOKEN" https://huggingface.co/api/whoami-v2
+          python -c "
+          from huggingface_hub import HfApi
+          import os
+
+          api = HfApi(token=os.environ['HF_TOKEN'])
+          api.upload_folder(
+              folder_path='.',
+              repo_id=f\"{os.environ['HF_USERNAME']}/{os.environ['HF_SPACE_NAME']}\",
+              repo_type='space',
+              ignore_patterns=['.git*', '.github/*', '__pycache__/*', '*.pyc'],
+          )
+          "
