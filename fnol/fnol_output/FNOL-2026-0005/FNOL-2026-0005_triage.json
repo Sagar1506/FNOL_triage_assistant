@@ -1,0 +1,238 @@
+{
+  "fnol_id": "FNOL-2026-0005",
+  "triage_generated_at": "2026-05-30T21:10:08.594020",
+  "adjuster_id": "ADJ-102",
+  "claim_snapshot": {
+    "member_id": "MEM-1002",
+    "policy_number": "POL-2024-002",
+    "vehicle_reg": "MH04CD7721",
+    "vehicle": "Honda City (2021)",
+    "incident_type": "ACCIDENT_WITH_THIRD_PARTY_INJURY",
+    "incident_date": "02-May-2026 11:20",
+    "incident_location": "BKC Connector Road, Bandra Kurla Complex, Mumbai \u2013 400051",
+    "fnol_received_at": "30-May-2026 21:10",
+    "policy_status": "ACTIVE",
+    "policy_inception": "10-Mar-2024",
+    "policy_expiry": "09-Mar-2025",
+    "coverage_type": "COMPREHENSIVE",
+    "idv_inr": 780000,
+    "ncb_percent": 20,
+    "addons": [
+      "ENGINE_PROTECTION",
+      "NCB_PROTECT"
+    ],
+    "hypothecated": false,
+    "financer_name": null,
+    "insurer": "ABC General Insurance Ltd.",
+    "policy_expiry_warning": "Policy POL-2024-002 expired 09-Mar-2025. Incident date 02-May-2026 11:20 is after expiry. Coverage requires renewal verification.",
+    "waiting_period_days": 30
+  },
+  "aging_risk": {
+    "fnol_age_hours": 0.01,
+    "aging_risk_level": "LOW",
+    "irdai_sla_due": "31-May-2026 21:10",
+    "sla_breached": false
+  },
+  "coverage_result": [
+    {
+      "section": "Section I \u2014 Own Damage (Accidental External Means)",
+      "clause_ref": "Section I, Clause 1(a)",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 09-Mar-2025, and the incident occurred after this date."
+    },
+    {
+      "section": "Section II \u2014 Third-Party Property Damage Liability",
+      "clause_ref": "Section II, Clause 2",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 09-Mar-2025, and the incident occurred after this date."
+    },
+    {
+      "section": "Section II \u2014 Third-Party Bodily Injury and Death Liability",
+      "clause_ref": "Section II, Clause 2",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "note": "The policy expired on 09-Mar-2025, and the incident occurred after this date."
+    }
+  ],
+  "coverage_applicable": false,
+  "coverage_confidence_overall": "LOW",
+  "exclusion_result": [
+    {
+      "code": "NO_VALID_DL",
+      "name": "Driving without a valid and effective driving licence",
+      "clause_ref": "General Exceptions, Clause 1",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "There is no indication that the driver of the insured vehicle was unlicensed."
+    },
+    {
+      "code": "CONSEQUENTIAL_LOSS",
+      "name": "Consequential or indirect loss",
+      "clause_ref": "Section I, Exclusion Clause 5",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The claim may involve indirect losses due to the accident, such as loss of use of the vehicle."
+    },
+    {
+      "code": "WAR_NUCLEAR",
+      "name": "War, invasion and nuclear risk",
+      "clause_ref": "General Exceptions, Clause 4",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "This exclusion does not appear to apply as the incident is a road accident."
+    },
+    {
+      "code": "DRIVING_UNDER_INFLUENCE",
+      "name": "Driving under influence of alcohol, drugs or intoxicants",
+      "clause_ref": "General Exceptions, Clause 2",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "There is no information provided about the driver's sobriety at the time of the accident."
+    },
+    {
+      "code": "GEOGRAPHICAL_EXCLUSION",
+      "name": "Damage occurring outside the geographical coverage area (India)",
+      "clause_ref": "Policy Schedule \u2014 Geographical Area of Cover",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The incident occurred within India, so this exclusion is likely not applicable."
+    },
+    {
+      "code": "UNLICENSED_DRIVER",
+      "name": "Vehicle driven by person not authorised by insured",
+      "clause_ref": "General Exceptions, Clause 1 \u2014 Driver Authorisation",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "It is unclear if the driver of the insured vehicle was authorized by the insured."
+    },
+    {
+      "code": "USE_BEYOND_LIMITATIONS",
+      "name": "Use of vehicle beyond the limitations of use stated in the policy",
+      "clause_ref": "General Exceptions, Clause 3",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "The incident description does not clarify if the vehicle was used in accordance with policy limitations."
+    },
+    {
+      "code": "DELIBERATE_DAMAGE",
+      "name": "Loss or damage intentionally caused by the insured",
+      "clause_ref": "General Conditions \u2014 Fraudulent Claims",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "There is no evidence suggesting that the insured intentionally caused the damage."
+    }
+  ],
+  "waiting_period": {
+    "policy_inception": "10-Mar-2024",
+    "waiting_period_days": 30,
+    "incident_date": "02-May-2026 11:20",
+    "days_since_inception": 783,
+    "waiting_period_active": false,
+    "incident_pre_inception": false,
+    "confidence": "HIGH",
+    "note": "Waiting period has elapsed. Policy has been in force for 783 days at the incident date."
+  },
+  "claims_history": {
+    "history_available": true,
+    "prior_claims_36m": [
+      {
+        "claim_id": "CLM-2026-0018",
+        "claim_date": "20-Apr-2026",
+        "incident_type": "ACCIDENT_OWN",
+        "status": "SETTLED",
+        "settled_amount_inr": 32000,
+        "ncb_impact": true
+      },
+      {
+        "claim_id": "CLM-2025-0091",
+        "claim_date": "05-Nov-2025",
+        "incident_type": "FLOOD_OR_NATURAL_CALAMITY",
+        "status": "SETTLED",
+        "settled_amount_inr": 55000,
+        "ncb_impact": false
+      }
+    ],
+    "prior_claims_36m_count": 2,
+    "last_claim_date": "2026-04-20",
+    "days_since_last_claim": 12,
+    "back_to_back_flag": true,
+    "prior_claims_12m_count": 2,
+    "repeat_claimant_flag": false,
+    "ncb_discrepancy": "NCB is 20% on policy but 1 recent claim(s) show ncb_impact = TRUE. Verify whether NCB was protected via NCB_PROTECT add-on."
+  },
+  "doc_checklist": [
+    {
+      "name": "First Information Report (FIR)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 7 days"
+    },
+    {
+      "name": "Registration Certificate (RC)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 48 hours"
+    },
+    {
+      "name": "Driving Licence (DL)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 48 hours"
+    },
+    {
+      "name": "Vehicle Damage Photo Log",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL"
+    }
+  ],
+  "escalation": {
+    "escalation_flag": true,
+    "triggered_conditions": [
+      {
+        "code": "HIGH_VALUE_CLAIM",
+        "label": "High-Value Claim",
+        "trigger": "IDV Rs.780,000 > Rs.5,00,000 AND incident type is ACCIDENT_WITH_THIRD_PARTY_INJURY",
+        "adjuster_instruction": "Refer to senior claims manager before proceeding."
+      },
+      {
+        "code": "THIRD_PARTY_BODILY_INJURY",
+        "label": "Third-Party Bodily Injury Reported",
+        "trigger": "tp_injury_reported = TRUE on FNOL form",
+        "adjuster_instruction": "Refer to senior claims manager. Do not make any liability statement to claimant. Legal exposure."
+      },
+      {
+        "code": "BACK_TO_BACK_CLAIMS",
+        "label": "Back-to-Back Claims",
+        "trigger": "days_since_last_claim = 12 (threshold: 30 or fewer days)",
+        "adjuster_instruction": "Senior review required before proceeding.",
+        "prior_claim_id": "CLM-2026-0018",
+        "prior_claim_date": "2026-04-20"
+      },
+      {
+        "code": "LATE_FNOL_OVER_7_DAYS",
+        "label": "Late FNOL \u2014 Over 7 Days",
+        "trigger": "FNOL received 28 days after incident date",
+        "adjuster_instruction": "Request written explanation from claimant. Refer to senior."
+      }
+    ],
+    "escalation_reason": "HIGH_VALUE_CLAIM|THIRD_PARTY_BODILY_INJURY|BACK_TO_BACK_CLAIMS|LATE_FNOL_OVER_7_DAYS"
+  },
+  "triage_status": "ESCALATED",
+  "escalation_flag": true,
+  "escalation_reason": "HIGH_VALUE_CLAIM|THIRD_PARTY_BODILY_INJURY|BACK_TO_BACK_CLAIMS|LATE_FNOL_OVER_7_DAYS",
+  "triage_json_path": null,
+  "triage_pdf_path": null,
+  "agent_status": "PENDING",
+  "error_message": null
+}
