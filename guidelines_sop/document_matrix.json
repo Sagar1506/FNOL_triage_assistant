@@ -1,0 +1,302 @@
+{
+  "ACCIDENT_OWN": {
+    "description": "Own vehicle accidental damage \u2014 no third party",
+    "fir_required": "recommended",
+    "blocking": [
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Vehicle Damage Photo Log",
+        "doc_type": "VEHICLE_DAMAGE_PHOTO_LOG",
+        "condition": "",
+        "collection_by": "At FNOL"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  },
+  "ACCIDENT_WITH_THIRD_PARTY": {
+    "description": "Accident involving a third-party vehicle \u2014 no bodily injury",
+    "fir_required": "mandatory",
+    "blocking": [
+      {
+        "document": "First Information Report (FIR)",
+        "doc_type": "FIR",
+        "condition": "",
+        "collection_by": "At FNOL or within 7 days"
+      },
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Vehicle Damage Photo Log",
+        "doc_type": "VEHICLE_DAMAGE_PHOTO_LOG",
+        "condition": "",
+        "collection_by": "At FNOL"
+      }
+    ],
+    "mandatory": [],
+    "recommended": []
+  },
+  "ACCIDENT_WITH_THIRD_PARTY_INJURY": {
+    "description": "Accident with third-party bodily injury reported",
+    "fir_required": "mandatory",
+    "blocking": [
+      {
+        "document": "First Information Report (FIR)",
+        "doc_type": "FIR",
+        "condition": "",
+        "collection_by": "At FNOL or within 7 days"
+      },
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Vehicle Damage Photo Log",
+        "doc_type": "VEHICLE_DAMAGE_PHOTO_LOG",
+        "condition": "",
+        "collection_by": "At FNOL"
+      }
+    ],
+    "mandatory": [],
+    "recommended": []
+  },
+  "THEFT_COMPLETE": {
+    "description": "Complete vehicle theft",
+    "fir_required": "mandatory",
+    "blocking": [
+      {
+        "document": "First Information Report (FIR)",
+        "doc_type": "FIR",
+        "condition": "",
+        "collection_by": "At FNOL or within 7 days"
+      },
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Key Surrender Confirmation",
+        "doc_type": "KEY_SURRENDER",
+        "condition": "",
+        "collection_by": "Within 48 hours"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  },
+  "THEFT_PARTIAL": {
+    "description": "Partial theft \u2014 vehicle parts stolen",
+    "fir_required": "mandatory",
+    "blocking": [
+      {
+        "document": "First Information Report (FIR)",
+        "doc_type": "FIR",
+        "condition": "",
+        "collection_by": "At FNOL or within 7 days"
+      },
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  },
+  "FIRE": {
+    "description": "Vehicle fire or explosion",
+    "fir_required": "mandatory",
+    "blocking": [
+      {
+        "document": "First Information Report (FIR)",
+        "doc_type": "FIR",
+        "condition": "",
+        "collection_by": "At FNOL or within 7 days"
+      },
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Vehicle Damage Photo Log",
+        "doc_type": "VEHICLE_DAMAGE_PHOTO_LOG",
+        "condition": "",
+        "collection_by": "At FNOL"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  },
+  "FLOOD_OR_NATURAL_CALAMITY": {
+    "description": "Flood, cyclone, hailstorm, earthquake, landslide",
+    "fir_required": "recommended",
+    "blocking": [
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Vehicle Damage Photo Log",
+        "doc_type": "VEHICLE_DAMAGE_PHOTO_LOG",
+        "condition": "",
+        "collection_by": "At FNOL"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  },
+  "VANDALISM": {
+    "description": "Malicious damage, riot, or strike-related damage",
+    "fir_required": "mandatory",
+    "blocking": [
+      {
+        "document": "First Information Report (FIR)",
+        "doc_type": "FIR",
+        "condition": "",
+        "collection_by": "At FNOL or within 7 days"
+      },
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      },
+      {
+        "document": "Vehicle Damage Photo Log",
+        "doc_type": "VEHICLE_DAMAGE_PHOTO_LOG",
+        "condition": "",
+        "collection_by": "At FNOL"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  },
+  "THIRD_PARTY_CLAIM_ONLY": {
+    "description": "TP claims against insured \u2014 no own vehicle damage",
+    "fir_required": "mandatory",
+    "blocking": [
+      {
+        "document": "First Information Report (FIR)",
+        "doc_type": "FIR",
+        "condition": "",
+        "collection_by": "At FNOL or within 7 days"
+      }
+    ],
+    "mandatory": [],
+    "recommended": []
+  },
+  "PERSONAL_ACCIDENT": {
+    "description": "Driver or passenger personal accident",
+    "fir_required": "recommended",
+    "blocking": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  },
+  "OTHER": {
+    "description": "Incident type not in standard list \u2014 adjuster to determine",
+    "fir_required": "case_by_case",
+    "blocking": [
+      {
+        "document": "Registration Certificate (RC)",
+        "doc_type": "REGISTRATION_CERTIFICATE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "mandatory": [
+      {
+        "document": "Driving Licence (DL)",
+        "doc_type": "DRIVING_LICENCE",
+        "condition": "",
+        "collection_by": "At FNOL or within 48 hours"
+      }
+    ],
+    "recommended": []
+  }
+}

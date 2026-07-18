@@ -1,0 +1,428 @@
+{
+  "fnol_id": "FNOL-2026-0001",
+  "triage_generated_at": "2026-07-12T21:31:28.463659",
+  "adjuster_id": "",
+  "claim_snapshot": {
+    "member_id": "MEM-1012",
+    "policy_number": "POL-2024-012",
+    "vehicle_reg": "PB10IJ3345",
+    "vehicle": "Honda Amaze (2022)",
+    "incident_type": "ACCIDENT_OWN",
+    "incident_date": "29-Jun-2026 16:55",
+    "incident_location": "<ADDRESS> (NH-1), Near <ADDRESS>, <ADDRESS> - 143001",
+    "fnol_received_at": "12-Jul-2026 21:31",
+    "policy_status": "ACTIVE",
+    "policy_inception": "01-Apr-2024",
+    "policy_expiry": "31-Mar-2027",
+    "coverage_type": "COMPREHENSIVE",
+    "idv_inr": 750000,
+    "ncb_percent": 50,
+    "addons": [
+      "CONSUMABLES_COVER",
+      "PA_PASSENGERS"
+    ],
+    "hypothecated": false,
+    "financer_name": null,
+    "insurer": "DEF General Insurance Ltd.",
+    "policy_expiry_warning": null,
+    "waiting_period_days": 30
+  },
+  "aging_risk": {
+    "fnol_age_hours": 0.02,
+    "aging_risk_level": "LOW",
+    "irdai_sla_due": "13-Jul-2026 21:31",
+    "sla_breached": false
+  },
+  "coverage_result": [
+    {
+      "section": "Section I \u2014 Own Damage (Accidental External Means)",
+      "clause_ref": "Section I, Clause 1(a)",
+      "status": "COVERED",
+      "confidence": "HIGH",
+      "note": "The damage to the vehicle was caused by an accidental external means, which is covered under this clause."
+    },
+    {
+      "section": "Section I \u2014 Own Damage (Transit)",
+      "clause_ref": "Section I, Clause 1(f)",
+      "status": "NOT_APPLICABLE",
+      "confidence": "HIGH",
+      "note": "The vehicle was stationary in traffic, not in transit, so this clause does not apply."
+    },
+    {
+      "section": "Add-on \u2014 Consumables Cover",
+      "clause_ref": "Add-on Schedule, Clause C1",
+      "status": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "note": "While the incident is covered, verification is needed to confirm if consumables were replaced as a direct consequence of the damage."
+    },
+    {
+      "section": "Add-on \u2014 Personal Accident Cover for Passengers",
+      "clause_ref": "Add-on Schedule, Clause P1",
+      "status": "NOT_APPLICABLE",
+      "confidence": "HIGH",
+      "note": "There were no injuries to passengers, so this clause does not apply."
+    }
+  ],
+  "coverage_applicable": true,
+  "coverage_confidence_overall": "MODERATE",
+  "exclusion_result": [
+    {
+      "code": "NO_VALID_DL",
+      "name": "Driving without a valid and effective driving licence",
+      "clause_ref": "General Exceptions, Clause 1",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "The driver has submitted a valid driving license, so this exclusion does not appear to apply."
+    },
+    {
+      "code": "DEPRECIATION_CONSUMABLES",
+      "name": "Depreciation on rubber, nylon, plastic parts, tyres and tubes",
+      "clause_ref": "Section I, Exclusion / IMT.21(a)",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The absence of a Zero Depreciation endorsement means depreciation on damaged parts may not be covered."
+    },
+    {
+      "code": "MECHANICAL_ELECTRICAL_BREAKDOWN",
+      "name": "Mechanical or electrical breakdown",
+      "clause_ref": "Section I, Exclusion Clause 4",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "The incident involved a collision, but any mechanical failure related to the damage could be relevant."
+    },
+    {
+      "code": "CONSEQUENTIAL_LOSS",
+      "name": "Consequential or indirect loss",
+      "clause_ref": "Section I, Exclusion Clause 5",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "Any indirect financial loss resulting from the accident may not be covered under this exclusion."
+    },
+    {
+      "code": "WAR_NUCLEAR",
+      "name": "War, invasion and nuclear risk",
+      "clause_ref": "General Exceptions, Clause 4",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "This exclusion does not appear to apply as the incident is a road accident."
+    },
+    {
+      "code": "DRIVING_UNDER_INFLUENCE",
+      "name": "Driving under influence of alcohol, drugs or intoxicants",
+      "clause_ref": "General Exceptions, Clause 2",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "There is no indication of intoxication, but verification is needed to confirm the driver's state."
+    },
+    {
+      "code": "WEAR_AND_TEAR",
+      "name": "Normal wear and tear and gradual deterioration",
+      "clause_ref": "Section I, Exclusion Clause 3",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "Damage from wear and tear is not covered, but the incident involved a collision."
+    },
+    {
+      "code": "TYRES_TUBES",
+      "name": "Tyre and tube damage when vehicle body is undamaged",
+      "clause_ref": "Section I, Exclusion / IMT.21(b)",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The vehicle sustained damage, so this exclusion may not apply."
+    },
+    {
+      "code": "GEOGRAPHICAL_EXCLUSION",
+      "name": "Damage occurring outside the geographical coverage area (India)",
+      "clause_ref": "Policy Schedule \u2014 Geographical Area of Cover",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "The incident occurred within India, so this exclusion does not apply."
+    },
+    {
+      "code": "UNLICENSED_DRIVER",
+      "name": "Vehicle driven by person not authorised by insured",
+      "clause_ref": "General Exceptions, Clause 1 \u2014 Driver Authorisation",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "The driver is not mentioned as being unauthorized, but verification is needed."
+    },
+    {
+      "code": "USE_BEYOND_LIMITATIONS",
+      "name": "Use of vehicle beyond the limitations of use stated in the policy",
+      "clause_ref": "General Exceptions, Clause 3",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "MODERATE",
+      "reason_relevant": "The incident description does not indicate commercial use, but verification is needed."
+    },
+    {
+      "code": "RACING_SPEED_TRIAL",
+      "name": "Use of vehicle for racing or speed testing",
+      "clause_ref": "General Exceptions, Clause 5",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "HIGH",
+      "reason_relevant": "The incident does not involve racing, so this exclusion does not apply."
+    },
+    {
+      "code": "DELIBERATE_DAMAGE",
+      "name": "Loss or damage intentionally caused by the insured",
+      "clause_ref": "General Conditions \u2014 Fraudulent Claims",
+      "applicability": "REQUIRES_VERIFICATION",
+      "confidence": "LOW",
+      "reason_relevant": "There is no indication of intentional damage by the insured, so this exclusion does not apply."
+    }
+  ],
+  "waiting_period": {
+    "policy_inception": "01-Apr-2024",
+    "waiting_period_days": 30,
+    "incident_date": "29-Jun-2026 16:55",
+    "days_since_inception": 819,
+    "waiting_period_active": false,
+    "incident_pre_inception": false,
+    "confidence": "HIGH",
+    "note": "Waiting period has elapsed. Policy has been in force for 819 days at the incident date."
+  },
+  "claims_history": {
+    "history_available": true,
+    "prior_claims_36m": [],
+    "prior_claims_36m_count": 0,
+    "last_claim_date": null,
+    "days_since_last_claim": null,
+    "back_to_back_flag": false,
+    "prior_claims_12m_count": 0,
+    "repeat_claimant_flag": false,
+    "ncb_discrepancy": null
+  },
+  "fraud_signals": {
+    "fraud_score": 9,
+    "band": "HIGH",
+    "confidence": "MODERATE",
+    "signals": [
+      {
+        "code": "BACK_TO_BACK_CLAIMS",
+        "label": "Back-to-Back Claims",
+        "weight": 0,
+        "max_weight": 3,
+        "triggered": false,
+        "reason": "No prior claim within 30 days of this incident on this vehicle.",
+        "data_complete": true
+      },
+      {
+        "code": "REPEAT_CLAIMANT",
+        "label": "Repeat Claimant",
+        "weight": 0,
+        "max_weight": 1,
+        "triggered": false,
+        "reason": "Fewer than 3 claims for this member in the preceding 12 months.",
+        "data_complete": true
+      },
+      {
+        "code": "BIND_AND_GRIND",
+        "label": "Claim Shortly After Policy Inception",
+        "weight": 0,
+        "max_weight": 3,
+        "triggered": false,
+        "reason": "Incident occurred 819 days after policy inception \u2014 outside the 45-day window.",
+        "data_complete": true
+      },
+      {
+        "code": "NCB_DISCREPANCY",
+        "label": "No-Claim Bonus Discrepancy",
+        "weight": 0,
+        "max_weight": 1,
+        "triggered": false,
+        "reason": "No NCB discrepancy against claims history.",
+        "data_complete": true
+      },
+      {
+        "code": "HYPOTHECATION_INCONSISTENCY",
+        "label": "Hypothecation Data Mismatch",
+        "weight": 0,
+        "max_weight": 1,
+        "triggered": false,
+        "reason": "RC hypothecation field is consistent with the policy register.",
+        "data_complete": true
+      },
+      {
+        "code": "DL_CLASS_MISMATCH",
+        "label": "Driving Licence Class Mismatch",
+        "weight": 3,
+        "max_weight": 3,
+        "triggered": true,
+        "reason": "DL authorised classes ('MCWG (Motorcycle with Gear) only') do not appear to cover the insured vehicle's class ('Motor Car (LMV)').",
+        "data_complete": true
+      },
+      {
+        "code": "OWNER_NAME_MISMATCH",
+        "label": "Registered Owner Mismatch",
+        "weight": 0,
+        "max_weight": 3,
+        "triggered": false,
+        "reason": "Not evaluated \u2014 RC owner name and/or FNOL claimant name is not available for comparison.",
+        "data_complete": false
+      },
+      {
+        "code": "LATE_REPORTING",
+        "label": "Late Reporting",
+        "weight": 1,
+        "max_weight": 1,
+        "triggered": true,
+        "reason": "FNOL received 13 days after the incident date (threshold: 7 days).",
+        "data_complete": true
+      },
+      {
+        "code": "CROSS_DOC_FIELD_MISMATCH",
+        "label": "Cross-Document Field Mismatch",
+        "weight": 1,
+        "max_weight": 1,
+        "triggered": true,
+        "reason": "1 cross-document field mismatch(es) found: vehicle_registration_number.",
+        "data_complete": true
+      },
+      {
+        "code": "NARRATIVE_COHERENCE",
+        "label": "Narrative Coherence",
+        "weight": 3,
+        "max_weight": 3,
+        "triggered": true,
+        "reason": "The claimant states that the vehicle was rear-ended at low speed with no airbag deployment, but the adjuster observation indicates front-end damage and airbag deployment, which contradicts the claimant's account.",
+        "data_complete": true
+      },
+      {
+        "code": "KEY_STATUS_CONCERN",
+        "label": "Key Status Concern (Theft Claims Only)",
+        "weight": 0,
+        "max_weight": 1,
+        "triggered": false,
+        "reason": "Not applicable \u2014 incident type is not THEFT_COMPLETE.",
+        "data_complete": true
+      },
+      {
+        "code": "DAMAGE_SEVERITY_PLAUSIBILITY",
+        "label": "Damage Severity Plausibility",
+        "weight": 1,
+        "max_weight": 1,
+        "triggered": true,
+        "reason": "The adjuster observation describes front-end damage and airbag deployment, which are not consistent with the claimant's description of a rear-only, low-speed impact.",
+        "data_complete": true
+      }
+    ],
+    "adjuster_summary": "5 of 12 elevated-review indicators are present \u2014 Confidence: MODERATE. Recommend referral to SIU for further review. Adjuster to determine next steps."
+  },
+  "doc_checklist": [
+    {
+      "name": "Registration Certificate (RC)",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 48 hours"
+    },
+    {
+      "name": "Vehicle Damage Photo Log",
+      "mandatory": true,
+      "blocking": true,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL"
+    },
+    {
+      "name": "Driving Licence (DL)",
+      "mandatory": true,
+      "blocking": false,
+      "received": true,
+      "status": "RECEIVED",
+      "collection_target": "At FNOL or within 48 hours"
+    }
+  ],
+  "escalation": {
+    "escalation_flag": true,
+    "triggered_conditions": [
+      {
+        "code": "LATE_FNOL_OVER_7_DAYS",
+        "label": "Late FNOL \u2014 Over 7 Days",
+        "trigger": "FNOL received 13 days after incident date",
+        "adjuster_instruction": "Request written explanation from claimant. Refer to senior."
+      },
+      {
+        "code": "ELEVATED_REVIEW_INDICATORS",
+        "label": "Elevated Review Indicators",
+        "trigger": "fraud_signals.band = HIGH (score = 9)",
+        "adjuster_instruction": "Refer to SIU for review. Does not by itself constitute a finding."
+      }
+    ],
+    "escalation_reason": "LATE_FNOL_OVER_7_DAYS|ELEVATED_REVIEW_INDICATORS"
+  },
+  "triage_status": "ESCALATED",
+  "escalation_flag": true,
+  "escalation_reason": "LATE_FNOL_OVER_7_DAYS|ELEVATED_REVIEW_INDICATORS",
+  "triage_json_path": "fnol\\fnol_output\\FNOL-2026-0001\\FNOL-2026-0001_triage.json",
+  "triage_pdf_path": "fnol\\fnol_output\\FNOL-2026-0001\\FNOL-2026-0001_triage.pdf",
+  "timing_report": {
+    "total_duration_s": 34.14,
+    "steps": [
+      {
+        "step": "Looking up your policy details\u2026",
+        "duration_s": 0.163,
+        "start_offset_s": 0.0
+      },
+      {
+        "step": "Analysing coverage applicability\u2026",
+        "duration_s": 8.011,
+        "start_offset_s": 0.163
+      },
+      {
+        "step": "Checking policy exclusions\u2026",
+        "duration_s": 22.221,
+        "start_offset_s": 8.174
+      },
+      {
+        "step": "Checking waiting period\u2026",
+        "duration_s": 0.002,
+        "start_offset_s": 30.395
+      },
+      {
+        "step": "Reviewing claims history\u2026",
+        "duration_s": 0.027,
+        "start_offset_s": 30.397
+      },
+      {
+        "step": "Evaluating fraud signals\u2026",
+        "duration_s": 3.452,
+        "start_offset_s": 30.424
+      },
+      {
+        "step": "Checking document checklist\u2026",
+        "duration_s": 0.002,
+        "start_offset_s": 33.875
+      },
+      {
+        "step": "Evaluating escalation conditions\u2026",
+        "duration_s": 0.002,
+        "start_offset_s": 33.877
+      },
+      {
+        "step": "Calculating aging risk\u2026",
+        "duration_s": 0.001,
+        "start_offset_s": 33.879
+      },
+      {
+        "step": "Saving triage report\u2026",
+        "duration_s": 0.014,
+        "start_offset_s": 33.881
+      },
+      {
+        "step": "Generating triage summary PDF\u2026",
+        "duration_s": 0.177,
+        "start_offset_s": 33.895
+      },
+      {
+        "step": "Updating FNOL register\u2026",
+        "duration_s": 0.068,
+        "start_offset_s": 34.072
+      }
+    ]
+  },
+  "timing_report_path": "fnol\\fnol_output\\FNOL-2026-0001\\FNOL-2026-0001_timing_report.json",
+  "agent_status": "COMPLETE",
+  "error_message": null
+}

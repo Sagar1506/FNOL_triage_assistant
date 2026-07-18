@@ -1,0 +1,65 @@
+{
+  "total_duration_s": 34.47,
+  "steps": [
+    {
+      "step": "Looking up your policy details\u2026",
+      "duration_s": 0.041,
+      "start_offset_s": 0.0
+    },
+    {
+      "step": "Analysing coverage applicability\u2026",
+      "duration_s": 8.584,
+      "start_offset_s": 0.041
+    },
+    {
+      "step": "Checking policy exclusions\u2026",
+      "duration_s": 21.714,
+      "start_offset_s": 8.625
+    },
+    {
+      "step": "Checking waiting period\u2026",
+      "duration_s": 0.002,
+      "start_offset_s": 30.339
+    },
+    {
+      "step": "Reviewing claims history\u2026",
+      "duration_s": 0.029,
+      "start_offset_s": 30.341
+    },
+    {
+      "step": "Evaluating fraud signals\u2026",
+      "duration_s": 3.961,
+      "start_offset_s": 30.37
+    },
+    {
+      "step": "Checking document checklist\u2026",
+      "duration_s": 0.001,
+      "start_offset_s": 34.331
+    },
+    {
+      "step": "Evaluating escalation conditions\u2026",
+      "duration_s": 0.001,
+      "start_offset_s": 34.332
+    },
+    {
+      "step": "Calculating aging risk\u2026",
+      "duration_s": 0.002,
+      "start_offset_s": 34.333
+    },
+    {
+      "step": "Saving triage report\u2026",
+      "duration_s": 0.01,
+      "start_offset_s": 34.336
+    },
+    {
+      "step": "Generating triage summary PDF\u2026",
+      "duration_s": 0.081,
+      "start_offset_s": 34.346
+    },
+    {
+      "step": "Updating FNOL register\u2026",
+      "duration_s": 0.043,
+      "start_offset_s": 34.427
+    }
+  ]
+}
