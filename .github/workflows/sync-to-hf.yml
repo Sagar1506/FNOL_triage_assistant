@@ -19,9 +19,6 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install huggingface_hub
-        run: pip install huggingface_hub
-
       - name: Debug secret values
         env:
           HF_USERNAME: ${{ secrets.HF_USERNAME }}
@@ -31,7 +28,18 @@ jobs:
           import os
           username = os.environ['HF_USERNAME']
           space_name = os.environ['HF_SPACE_NAME']
-          print('username repr:', repr(username))
-          print('space_name repr:', repr(space_name))
-          print('combined repr:', repr(f'{username}/{space_name}'))
+
+          def diagnose(name, value):
+              print(f'{name} length: {len(value)}')
+              print(f'{name} starts with whitespace: {value != value.lstrip()}')
+              print(f'{name} ends with whitespace: {value != value.rstrip()}')
+              print(f'{name} contains double-quote: {chr(34) in value}')
+              print(f'{name} contains single-quote: {chr(39) in value}')
+              print(f'{name} contains slash: {chr(47) in value}')
+              print(f'{name} contains newline: {chr(10) in value}')
+              print(f'{name} first char code: {ord(value[0]) if value else \"EMPTY\"}')
+              print(f'{name} last char code: {ord(value[-1]) if value else \"EMPTY\"}')
+
+          diagnose('username', username)
+          diagnose('space_name', space_name)
           "
